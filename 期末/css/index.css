@@ -1,0 +1,32 @@
+.jumbotron {
+    background-color: #3F51B5;
+    color: white;
+}
+
+footer {
+    margin-top: 50px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #9E9E9E;
+    padding-top: 25px;
+    color: #908f8f;
+}
+
+div#data {
+    min-height: 115px;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+img.image:hover {
+    cursor: pointer;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, .2);
+    transform: translate3d(-3px, -3px, 0);
+    transition-delay: 0s;
+    transition-duration: 0.2s;
+    transition-property: all;
+    transition-timing-function: linear;
+}

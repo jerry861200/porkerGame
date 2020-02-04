@@ -1,0 +1,115 @@
+.first{
+    background-image: url(../pic/food.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+
+.button1{
+    text-align: center;
+    padding-bottom: 100px;
+    margin-top: 50px;
+}
+
+
+.button1 button{
+    background-color: #ffffff00;
+    color: white;
+    border-color: white;
+}
+
+.button1 button:hover {
+    background-color: #e06b6bbb;
+    border-color: #e06b6b;
+}
+
+#header {
+    height: 500px;
+}
+
+h1{
+    color:white;
+    padding: 170px;
+    font-family:"PT Sans Narrow";
+}
+
+#rectangle {
+    width: 480px;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.144);
+    border-color: white;
+    position: absolute;
+    border-style: solid;
+    left: 400px;
+    top: 140px;
+}
+
+#deal{
+    background-color: rgba(255, 255, 255, 0);
+    border-color: rgba(253, 253, 253, 0);
+}
+
+.a{
+    position: absolute;
+    left: 430px;
+    top: 270px;
+}
+
+.thinking{
+    width: 40%;
+    height: auto;
+    border:0;
+    outline: none;
+}
+
+.thinking:focus{
+    outline:none;
+}
+
+.image1,.image2 ,.image3 ,.image4 ,.image5{
+    height: 200px;
+    width: auto;
+}
+
+.image1:hover,.image2:hover,.image3:hover ,.image4:hover ,.image5:hover {
+    cursor: pointer;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, .2);
+    transform: translate3d(-1px, -1px, 0);
+    transition-delay: 0s;
+    transition-duration: 0.2s;
+    transition-property: all;
+    transition-timing-function: linear;
+}
+
+.image1{
+    position: absolute;
+    left: 567px;
+    top: 25px;
+}
+
+.image2{
+    position: absolute;
+    left: 800px;
+    top: 192px;
+    transform: rotate(72deg);
+}
+
+.image3{
+    position: absolute;
+    left: 334px;
+    top: 192px;
+    transform: rotate(-72deg);
+}
+
+.image4{
+    position: absolute;
+    left: 415px;
+    top: 454px;
+    transform: rotate(-144deg);
+}
+
+.image5{
+    position: absolute;
+    left: 719px;
+    top: 454px;
+    transform: rotate(144deg);
+}
